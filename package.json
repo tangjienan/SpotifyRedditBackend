@@ -1,0 +1,24 @@
+{
+  "name": "spotifysongplaylist",
+  "version": "1.0.0",
+  "description": "backend for redditspotify, including cache and pagination",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "promise": "^8.0.1",
+    "querystring": "^0.2.0",
+    "redis": "^2.8.0",
+    "request": "^2.85.0"
+  }
+}
